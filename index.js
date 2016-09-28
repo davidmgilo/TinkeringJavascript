@@ -1,9 +1,13 @@
 
+//Això no es pot fer en php. HOYSTER
+
+hola('David');
+
 function hola($name) {
     console.log('Hola'+$name);
 }
 
-hola('David');
+
 //
 // console.log("Hello world at external file");
 //
