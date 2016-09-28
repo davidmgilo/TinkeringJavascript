@@ -1,5 +1,5 @@
 
-//Això no es pot fer en php. HOYSTER
+//Això no es pot fer en php. HOYSTER. Primer carrega en memoria funcions i variables.
 
 hola('David');
 
