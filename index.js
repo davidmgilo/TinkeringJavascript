@@ -1,12 +1,18 @@
 
-console.log("Hello world at external file");
+function hola() {
+    console.log('Hola');
+}
 
-//alert('Hola mon!'); //Evitar utilitzar aquesta forma!
-
-$name= 'David';
-
-//Windows: només en navegadors!!
-window.alert(window.$name);
+hola();
+//
+// console.log("Hello world at external file");
+//
+// //alert('Hola mon!'); //Evitar utilitzar aquesta forma!
+//
+// $name= 'David';
+//
+// //Windows: només en navegadors!!
+// window.alert(window.$name);
 
 //Objecte window : objecte per defecte en navegador = Namespace Global
 //Tothom depèn d'aquest objecte.
