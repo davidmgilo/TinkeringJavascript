@@ -1,9 +1,9 @@
 
-function hola() {
-    console.log('Hola');
+function hola($name) {
+    console.log('Hola'+$name);
 }
 
-hola();
+hola('David');
 //
 // console.log("Hello world at external file");
 //
