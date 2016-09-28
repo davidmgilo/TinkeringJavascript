@@ -6,7 +6,13 @@ console.log("Hello world at external file");
 $name= 'David';
 
 //Windows: només en navegadors!!
-window.alert('Hola mon!')
+window.alert(window.$name);
 
 //Objecte window : objecte per defecte en navegador = Namespace Global
 //Tothom depèn d'aquest objecte.
+
+// Scope d'una variable. Funció
+
+
+
+
