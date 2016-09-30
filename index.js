@@ -21,3 +21,7 @@ var Person = {
 var myApp = {};
 
 myApp.name = 'David';
+
+myApp.hello = function (){
+    console.log('Hola món');
+}
