@@ -3,6 +3,8 @@ function hello() {
     console.log("Hola " + $name);
 }
 
+console.log($name);
+
 hello();
 
 //JAVASCRIPT STRICT MODE: No l'activeu
