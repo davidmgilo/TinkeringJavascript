@@ -1,48 +1,16 @@
-// OOP: Object Oriented Programming
+//Javascript tradicional
 
-//JSON
+console.log('hello');
 
-// var Person = {
-//
-// };
-//
-// Person.name="Sergi";
-//
-// Person.hello = function() {
-//
-// };
 
-//OLN
 
-// var Person = {
-//     name : "Sergi",
-//     constructor: function(){
-//
-//     },
-//     hello: function () {
-//         console.log('Hola ' + this.name);
-//     },
-//     bye :function(){
-//         return 'Bye bye ' + this.name;
-//     }
-// }; //No és una classe. És un objecte directament!!
-//
-// Person.hello();
-// console.log(Person.bye());
+// Llenguatge asíncron. Orientat a interfície gràfica
 
-// The module pattern
+//Programes no asíncrons tenen una execució lineal
 
-var Person = (function() {
-    var name = "Sergi";
-    var sn1 = "Tur";
-    return {
-        hello: function () {
-            console.log('Hola ' + name);
-        },
-        bye: function () {
-        return 'Bye bye ' + name;
-        }
-    }
-})();
+//En JS, s'esperen esdeveniments.
 
-console.log(Person.bye());
+//Ajax
+
+
+
