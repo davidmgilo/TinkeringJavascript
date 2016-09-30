@@ -14,9 +14,27 @@
 
 //OLN
 
-var Person = {
+// var Person = {
+//     name : "Sergi",
+//     constructor: function(){
+//
+//     },
+//     hello: function () {
+//         console.log('Hola ' + this.name);
+//     },
+//     bye :function(){
+//         return 'Bye bye ' + this.name;
+//     }
+// }; //No és una classe. És un objecte directament!!
+//
+// Person.hello();
+// console.log(Person.bye());
+
+// The module pattern
+
+var Person = (function(){
     name : "Sergi",
-    constructor: function(){
+    constructor : function(){
 
     },
     hello: function () {
@@ -25,7 +43,4 @@ var Person = {
     bye :function(){
         return 'Bye bye ' + this.name;
     }
-}; //No és una classe. És un objecte directament!!
-
-Person.hello();
-console.log(Person.bye());
+})();
