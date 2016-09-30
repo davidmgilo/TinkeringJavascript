@@ -37,10 +37,12 @@ var Person = (function() {
     var sn1 = "Tur";
     return {
         hello: function () {
-            console.log('Hola ' + this.name);
+            console.log('Hola ' + name);
         },
         bye: function () {
-        return 'Bye bye ' + this.name;
+        return 'Bye bye ' + name;
         }
     }
 })();
+
+console.log(Person.bye());
