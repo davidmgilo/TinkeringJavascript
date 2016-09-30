@@ -12,5 +12,10 @@ console.log('hello');
 
 //Ajax
 
+//DOM: Document Object Model
+//DOM manipulation
 
+hello = document.getElementById('hello');
+
+console.log(hello);
 
