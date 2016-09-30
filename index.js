@@ -1,9 +1,5 @@
 //Javascript tradicional
 
-console.log('hello');
-
-
-
 // Llenguatge asíncron. Orientat a interfície gràfica
 
 //Programes no asíncrons tenen una execució lineal
@@ -15,7 +11,6 @@ console.log('hello');
 //DOM: Document Object Model
 //DOM manipulation
 
-hello = document.getElementById('hello');
+document.getElementById("hello").innerHTML('Hola!');
 
-console.log(hello);
 
