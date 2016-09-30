@@ -1,4 +1,4 @@
-//VARIABLE GLOBALS: un problema
+//VARIABLE GLOBALS: un problema. Raó: els xocs entre fitxers perquè tenen variables globals amb el mateix nom.
 
 $a =
 
