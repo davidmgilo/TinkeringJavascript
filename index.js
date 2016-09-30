@@ -1,3 +1,7 @@
+//VARIABLE GLOBALS: un problema
+
+$a =
+
 
 function (){
     $a ="";
