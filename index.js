@@ -8,16 +8,16 @@
 //BACKEND: Java, PHP, JavaScript, Ruby, Python
 
 //JavaScript Object Notation aka JSON
-var Persons =[
-    {
-        'name'  :   'David',
-        'sn1'   :   'Martinez',
-        'age'   :   25
-    },
-    {
-        'name'  :   'David',
-        'sn1'   :   'Martinez',
-        'age'   :   25
-    }
+var Person = {
+        'name'  :   'Sergi',
+        'sn1'   :   'Tur',
+        'age'   :   38
+};
 
-];
+//Namespaces
+
+//Jquery $
+
+var myApp = {};
+
+myApp.name = 'David';
