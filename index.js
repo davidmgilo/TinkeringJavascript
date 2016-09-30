@@ -8,9 +8,16 @@
 //BACKEND: Java, PHP, JavaScript, Ruby, Python
 
 //JavaScript Object Notation aka JSON
-var Person = {
-    'name'  :   'David',
-    'sn1'   :   'Martinez',
-    'age'   :   25
-}; //Objecte 
+var Persons =[
+    {
+        'name'  :   'David',
+        'sn1'   :   'Martinez',
+        'age'   :   25
+    },
+    {
+        'name'  :   'David',
+        'sn1'   :   'Martinez',
+        'age'   :   25
+    }
 
+];
