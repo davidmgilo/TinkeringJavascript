@@ -2,10 +2,10 @@ function hello(bool) {
     // $name = "David";
     // console.log("Hola " + $name);
     if(bool){
-        foo = "bar";
+        var foo = "bar";
         console.log(foo)
     }else{
-        console.log(foo); 
+        console.log(foo);
     }
 }
 
