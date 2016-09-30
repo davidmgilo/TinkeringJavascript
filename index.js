@@ -1,3 +1,6 @@
+
+
+
 function hello(bool) {
     // $name = "David";
     // console.log("Hola " + $name);
