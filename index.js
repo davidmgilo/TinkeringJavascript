@@ -32,15 +32,15 @@
 
 // The module pattern
 
-var Person = (function(){
-    name : "Sergi",
-    constructor : function(){
-
-    },
-    hello: function () {
-        console.log('Hola ' + this.name);
-    },
-    bye :function(){
+var Person = (function() {
+    var name = "Sergi";
+    var sn1 = "Tur";
+    return {
+        hello: function () {
+            console.log('Hola ' + this.name);
+        },
+        bye: function () {
         return 'Bye bye ' + this.name;
+        }
     }
 })();
