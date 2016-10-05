@@ -7,7 +7,7 @@
 //Javascript: functional programming
 
 function Persona() {
-
+    console.log('Creant una nova persona')
 } // function contructor
 
 var persona1 = new Persona();
