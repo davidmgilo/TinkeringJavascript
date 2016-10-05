@@ -15,13 +15,17 @@
 // var persona1 = new Persona('Xavier');
 // console.log(persona1);
 
-var persona = function() {
+function persona() {
    console.log('Creant una nova persona');
-     this.name = 'David';
-     this.sn1 ='Martinez';
+     var this.name = 'David';
+     var this.sn1 ='Martinez';
 };
 
-console.log (persona.name); // Així no funciona, necessita el new o el bind...
+var persona1 = persona;
+
+persona1.bind(persona);
+
+console.log (persona1.name); // Així no funciona, necessita el new o el bind...
 
 //bind
 //per especificar a que fem referencia quan diem this
