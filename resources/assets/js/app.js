@@ -3,8 +3,9 @@ var calculateArea = function () {
 };
 
 var Figure = function (){
-    this.area = calculateArea ;
 };
+
+Figure.prototype.area = calculateArea;
 
 var figura = new Figure();
 
