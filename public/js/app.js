@@ -68,7 +68,7 @@
 /* 0 */
 /***/ function(module, exports) {
 
-eval("console.log('Hello friday!');//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9yZXNvdXJjZXMvYXNzZXRzL2pzL2FwcC5qcz84YjY3Il0sInNvdXJjZXNDb250ZW50IjpbImNvbnNvbGUubG9nKCdIZWxsbyBmcmlkYXkhJyk7XG5cblxuLy8gV0VCUEFDSyBGT09URVIgLy9cbi8vIHJlc291cmNlcy9hc3NldHMvanMvYXBwLmpzIl0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==");
+eval("console.log('Hello friday!');\n\n//En JS this no sempre és el mateix, depèn del context.\n//Sempre fa referència a un objecte.\n//No és el mateix que en Java o PHP: la pròpia classe.\n\n\n//\"use strict\";\n\nconsole.log(this); //this= Window o Global a node\n\n//this a javascript: objecte que invoca la funció on s'utilitza this//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9yZXNvdXJjZXMvYXNzZXRzL2pzL2FwcC5qcz84YjY3Il0sInNvdXJjZXNDb250ZW50IjpbImNvbnNvbGUubG9nKCdIZWxsbyBmcmlkYXkhJyk7XG5cbi8vRW4gSlMgdGhpcyBubyBzZW1wcmUgw6lzIGVsIG1hdGVpeCwgZGVww6huIGRlbCBjb250ZXh0LlxuLy9TZW1wcmUgZmEgcmVmZXLDqG5jaWEgYSB1biBvYmplY3RlLlxuLy9ObyDDqXMgZWwgbWF0ZWl4IHF1ZSBlbiBKYXZhIG8gUEhQOiBsYSBwcsOycGlhIGNsYXNzZS5cblxuXG4vL1widXNlIHN0cmljdFwiO1xuXG5jb25zb2xlLmxvZyh0aGlzKTsgLy90aGlzPSBXaW5kb3cgbyBHbG9iYWwgYSBub2RlXG5cbi8vdGhpcyBhIGphdmFzY3JpcHQ6IG9iamVjdGUgcXVlIGludm9jYSBsYSBmdW5jacOzIG9uIHMndXRpbGl0emEgdGhpc1xuXG5cbi8vIFdFQlBBQ0sgRk9PVEVSIC8vXG4vLyByZXNvdXJjZXMvYXNzZXRzL2pzL2FwcC5qcyJdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTs7Ozs7Ozs7QUFRQTtBQUNBOyIsInNvdXJjZVJvb3QiOiIifQ==");
 
 /***/ }
 /******/ ]);
