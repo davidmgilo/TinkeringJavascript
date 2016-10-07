@@ -46,4 +46,9 @@ boundshowFullName();
 
 FullName.call(person);
 
+FullName.apply(person);
+
 //EXPLICITS: dir a qui aplica el this. mètodes bind call apply
+//El bind no funciona si hi ha paràmetres.
+//En el call, els paràmetres separats per comes.
+//En apply, els paràmetres es passen com un array
