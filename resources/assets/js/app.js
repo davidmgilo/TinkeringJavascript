@@ -3,8 +3,11 @@
 //     console.log("Creant un objecte");
 // }
 
-var Persona = function () {
+var Persona = function (name) {
+    this.name = name;
     console.log("Creant un objecte");
 };
 
-$personeta = new Persona();
+var personeta = new Persona('David');
+
+console.log(personeta.name);
