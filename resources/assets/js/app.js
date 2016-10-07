@@ -10,3 +10,13 @@ console.log('Hello friday!');
 console.log(this); //this= Window o Global a node
 
 //this a javascript: objecte que invoca la funció on s'utilitza this
+
+var person = {
+  firstName : "Penelope",
+    lastName : "Barrymore",
+    showFullName:function () {
+        console.log(this.firstName + " " + this.lastName);
+    }
+};
+
+person.showFullName()
