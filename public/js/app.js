@@ -68,7 +68,7 @@
 /* 0 */
 /***/ function(module, exports) {
 
-eval("//Funció constructora\nfunction Persona(){\n    console.log(\"Creant un objecte\");\n}\n\n$personeta = new Persona();//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9yZXNvdXJjZXMvYXNzZXRzL2pzL2FwcC5qcz84YjY3Il0sInNvdXJjZXNDb250ZW50IjpbIi8vRnVuY2nDsyBjb25zdHJ1Y3RvcmFcbmZ1bmN0aW9uIFBlcnNvbmEoKXtcbiAgICBjb25zb2xlLmxvZyhcIkNyZWFudCB1biBvYmplY3RlXCIpO1xufVxuXG4kcGVyc29uZXRhID0gbmV3IFBlcnNvbmEoKTtcblxuXG4vLyBXRUJQQUNLIEZPT1RFUiAvL1xuLy8gcmVzb3VyY2VzL2Fzc2V0cy9qcy9hcHAuanMiXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZVJvb3QiOiIifQ==");
+eval("//Funció constructora\n// function Persona(){\n//     console.log(\"Creant un objecte\");\n// }\n\nvar Persona = function () {\n    console.log(\"Creant un objecte\");\n};\n\n$personeta = new Persona();//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9yZXNvdXJjZXMvYXNzZXRzL2pzL2FwcC5qcz84YjY3Il0sInNvdXJjZXNDb250ZW50IjpbIi8vRnVuY2nDsyBjb25zdHJ1Y3RvcmFcbi8vIGZ1bmN0aW9uIFBlcnNvbmEoKXtcbi8vICAgICBjb25zb2xlLmxvZyhcIkNyZWFudCB1biBvYmplY3RlXCIpO1xuLy8gfVxuXG52YXIgUGVyc29uYSA9IGZ1bmN0aW9uICgpIHtcbiAgICBjb25zb2xlLmxvZyhcIkNyZWFudCB1biBvYmplY3RlXCIpO1xufTtcblxuJHBlcnNvbmV0YSA9IG5ldyBQZXJzb25hKCk7XG5cblxuLy8gV0VCUEFDSyBGT09URVIgLy9cbi8vIHJlc291cmNlcy9hc3NldHMvanMvYXBwLmpzIl0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7QUFLQTtBQUNBO0FBQ0E7QUFDQTsiLCJzb3VyY2VSb290IjoiIn0=");
 
 /***/ }
 /******/ ]);
