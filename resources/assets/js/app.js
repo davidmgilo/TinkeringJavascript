@@ -53,4 +53,4 @@ FullName.apply(person);
 //En el call, els paràmetres separats per comes.
 //En apply, els paràmetres es passen com un array.
 
-//args en funcions sense arguments és un array amb tots els paràmetres que se li passin a la funció.
+//arguments[] en funcions sense arguments és un array amb tots els paràmetres que se li passin a la funció.
