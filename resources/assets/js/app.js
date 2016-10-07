@@ -44,4 +44,6 @@ FullName();
 
 boundshowFullName();
 
+FullName.call(person);
+
 //EXPLICITS: dir a qui aplica el this. mètodes bind call apply
