@@ -25,11 +25,13 @@ var FullName = function () {
     console.log(this.firstName + " " + this.lastName);
 };
 
+var name = "Penelope";
+
 firstName="Xavier";
 lastName="Cognom";
 
 var person = {
-    firstName : "Penelope",
+    firstName : name,
     lastName : "Barrymore",
     showFullName: FullName
 };
